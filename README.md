@@ -1,8 +1,6 @@
 # Portfolio — Pratik Sonar
 
-Personal portfolio. Clean dark aesthetic with a static professional background,
-scroll reveals, a hero entrance stagger, a typewriter subtitle, and a
-pause-on-hover skills marquee.
+Personal portfolio.
 This portfolio is inspired by developer of quickshell
 Arch user here
 Hahaha
