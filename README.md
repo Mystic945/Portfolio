@@ -1,59 +1,60 @@
-# Portfolio — Pratik Sonar
+Portfolio — Pratik Sonar
 
-Personal portfolio. Clean dark aesthetic with a static professional background,
-scroll reveals, a hero entrance stagger, a typewriter subtitle, and a
-pause-on-hover skills marquee.
+Personal portfolio site with a clean dark aesthetic: a static professional background, scroll reveals, a hero entrance stagger, a typewriter subtitle, and a pause-on-hover skills marquee.
 
-**Stack:** Vite · React · [Motion](https://motion.dev)
+Stack: Vite, React, Motion (https://motion.dev)
 
-## Develop
+────────────────────────────────────
 
-```bash
-npm install
-npm run dev      # http://localhost:5173
-```
+Getting Started
 
-## Build
+Install dependencies and run the development server:
 
-```bash
-npm run build    # -> dist/
-npm run preview  # serve the production build locally
-```
+    npm install
+    npm run dev        (http://localhost:5173)
 
-`vite.config.js` sets `base: "./"`, so the same `dist/` works on Vercel,
-Netlify, and GitHub Pages project sites with no extra config.
+Build for production:
 
-### Deploy to Vercel
+    npm run build       →  outputs to dist/
+    npm run preview      (serve the production build locally)
 
-Import the repo — Framework preset **Vite**, build `npm run build`, output
-`dist`. Nothing else to set.
+vite.config.js sets base: "./", so the same dist/ output works on Vercel, Netlify, and GitHub Pages project sites with no extra configuration.
 
-### Deploy to GitHub Pages
+────────────────────────────────────
 
-Push `dist/` to a `gh-pages` branch, or add an Actions workflow that runs
-`npm run build` and publishes `dist/`.
+Deployment
 
-## Editing content
+Vercel
 
-All copy lives in [`src/data/content.js`](src/data/content.js) — profile text,
-stats, focus timeline, projects, skills, and links. Components don't hold
-hard-coded strings.
+Import the repository, select the Vite framework preset, and use npm run build as the build command with dist as the output directory. No further configuration is required.
 
-## Replacing the avatar
+GitHub Pages
 
-Drop a square image at `public/avatar.svg` (or use `public/avatar.png` and
-change `AVATAR` in `src/components/Hero.jsx`). The current file is a generated
-monogram placeholder.
+Push the contents of dist/ to a gh-pages branch, or add a GitHub Actions workflow that runs npm run build and publishes dist/.
 
-## Animations & where they live
+────────────────────────────────────
+
+Editing Content
+
+All copy lives in src/data/content.js — profile text, statistics, the focus timeline, projects, skills, and links. Components do not contain hard-coded strings, so content updates never require touching component code.
+
+────────────────────────────────────
+
+Replacing the Avatar
+
+Drop a square image at public/avatar.svg, or use public/avatar.png and update the AVATAR constant in src/components/Hero.jsx. The current file is a generated monogram placeholder.
+
+────────────────────────────────────
+
+Animations Reference
 
 | Effect | File |
 | --- | --- |
-| Minimal cursor-tracking light | `src/components/MouseGlow.jsx` |
-| Scroll reveal (fade + rise) | `src/components/Reveal.jsx` |
-| Hero entrance stagger | `src/components/Hero.jsx` |
-| Typewriter subtitle | `src/components/Typewriter.jsx` |
-| Skills marquee (pause on hover) | `src/components/Skills.jsx` |
-| Project card hover (border sweep, lift, corner glow) | `global.css` |
-| Focus row hover (slide + dot) | `global.css` |
-| Static background gradient + faint masked grid + rim frame | `src/styles/global.css` |
+| Minimal cursor-tracking light | src/components/MouseGlow.jsx |
+| Scroll reveal (fade + rise) | src/components/Reveal.jsx |
+| Hero entrance stagger | src/components/Hero.jsx |
+| Typewriter subtitle | src/components/Typewriter.jsx |
+| Skills marquee (pause on hover) | src/components/Skills.jsx |
+| Project card hover (border sweep, lift, corner glow) | global.css |
+| Focus row hover (slide + dot) | global.css |
+| Static background gradient, faint masked grid, rim frame | src/styles/global.css |
