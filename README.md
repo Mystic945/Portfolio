@@ -2,7 +2,7 @@
 
 Personal portfolio.
 This portfolio is inspired by developer of quickshell.
-Arch user here Hahaha
+Arch user here hahaha
 
 **Stack:** Vite · React · [Motion](https://motion.dev)
 
