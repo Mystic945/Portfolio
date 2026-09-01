@@ -37,5 +37,3 @@ Build for production:
 | Project card hover (border sweep, lift, corner glow) | `global.css` |
 | Focus row hover (slide + dot) | `global.css` |
 | Static background gradient + faint masked grid + rim frame | `src/styles/global.css` |
-
->>>>>>> 2513e717e179b199746de31dc0cd75f0e288033f
