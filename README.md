@@ -1,8 +1,8 @@
 # Portfolio — Pratik Sonar
 
 Personal portfolio.
-This portfolio is inspired by developer of quickshell
-Arch user here
+This portfolio is inspired by developer of quickshell.
+Arch user here/
 Hahaha
 
 **Stack:** Vite · React · [Motion](https://motion.dev)
