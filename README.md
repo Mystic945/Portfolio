@@ -57,3 +57,6 @@ monogram placeholder.
 | Project card hover (border sweep, lift, corner glow) | `global.css` |
 | Focus row hover (slide + dot) | `global.css` |
 | Static background gradient + faint masked grid + rim frame | `src/styles/global.css` |
+This portfolio is inspired my developer of quickshell 
+arch user here 
+Hahaha
