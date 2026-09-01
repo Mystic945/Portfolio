@@ -3,6 +3,9 @@
 Personal portfolio. Clean dark aesthetic with a static professional background,
 scroll reveals, a hero entrance stagger, a typewriter subtitle, and a
 pause-on-hover skills marquee.
+This portfolio is inspired by developer of quickshell
+Arch user here
+Hahaha
 
 **Stack:** Vite · React · [Motion](https://motion.dev)
 
@@ -57,6 +60,4 @@ monogram placeholder.
 | Project card hover (border sweep, lift, corner glow) | `global.css` |
 | Focus row hover (slide + dot) | `global.css` |
 | Static background gradient + faint masked grid + rim frame | `src/styles/global.css` |
-This portfolio is inspired my developer of quickshell 
-arch user here 
-Hahaha
+
